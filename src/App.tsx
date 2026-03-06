@@ -215,6 +215,7 @@ export default function IftarCheckin() {
   return (
     <div style={{
       minHeight:"100vh",
+      width:"100%",
       background:"radial-gradient(ellipse at 20% 10%, #0a3d5a 0%, #031c2e 50%, #020f1c 100%)",
       fontFamily:"'Segoe UI',system-ui,sans-serif",
       color:"#d8f0f8", position:"relative", overflowX:"hidden",
