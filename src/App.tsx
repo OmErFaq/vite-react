@@ -132,15 +132,6 @@ const BASE_GUESTS: Guest[] = [
 
 const norm = (s: string): string => s?.toLowerCase().replace(/\s+/g," ").trim()??"";
 
-// ── INLINE SVG LOGO ──────────────────────────────────────────────────────────
-const SmartPlusLogo = () => (
-  <svg viewBox="0 0 140 38" style={{ height: 28, display: "block" }}>
-    <text x="0" y="28" fontFamily="'Segoe UI', system-ui, sans-serif" fontSize="30" fontWeight="800" fill="#031c2e" letterSpacing="-0.5">
-      Smart<tspan fill="#1ab8d8">+</tspan>
-    </text>
-  </svg>
-);
-
 const Crescent = ({flip=false, style={}}: {flip?: boolean; style?: React.CSSProperties}) => (
   <svg viewBox="0 0 80 140" fill="none" style={{...style, transform:flip?"scaleX(-1)":undefined}}>
     <defs>
@@ -490,14 +481,14 @@ export default function IftarCheckin() {
           </div>
         )}
 
-        <div style={{textAlign:"center",paddingTop:30,marginBottom:18,position:"relative"}}>
-          <div style={{display:"inline-flex",alignItems:"center",justifyContent:"center",background:"#fff",borderRadius:12,padding:"6px 20px",
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",paddingTop:30,marginBottom:18}}>
+          <div style={{display:"inline-block",background:"#fff",borderRadius:12,padding:"8px 16px",
             boxShadow:`0 0 0 1px ${BORDER}, 0 6px 28px rgba(0,0,0,0.55)`}}>
-            {/* The Inline SVG Logo */}
-            <SmartPlusLogo />
+            {/* Make sure the image is named logo.png (or logo.jpeg) and placed in the 'public' folder */}
+            <img src="/logo.png" alt="Smartplus" style={{height:38,objectFit:"contain",display:"block"}}/>
           </div>
           <button onClick={()=>{ setEditingGuest(null); adminUnlocked?setShowAdmin(true):setShowAdmin(s=>!s); }}
-            style={{position:"absolute",right:0,top:30,background:"rgba(255,255,255,0.05)",
+            style={{background:"rgba(255,255,255,0.05)",
               border:"1px solid rgba(96,216,248,0.15)",borderRadius:8,
               padding:"6px 10px",fontSize:11,color:"rgba(96,216,248,0.4)",cursor:"pointer",
               fontFamily:"inherit"}}>
