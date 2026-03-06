@@ -178,6 +178,19 @@ export default function IftarCheckin() {
   const [searched,setSearched]= useState<boolean>(false);
   const [dbStatus,setDbStatus]= useState<"connecting"|"ok"|"error">("connecting");
 
+  // Force body + html to dark background on all screen sizes
+  useEffect(() => {
+    document.body.style.background = "radial-gradient(ellipse at 20% 10%, #0a3d5a 0%, #031c2e 50%, #020f1c 100%)";
+    document.body.style.margin = "0";
+    document.body.style.padding = "0";
+    document.body.style.minHeight = "100vh";
+    document.documentElement.style.background = "#031c2e";
+    return () => {
+      document.body.style.background = "";
+      document.documentElement.style.background = "";
+    };
+  }, []);
+
   useEffect(() => {
     const unsub = onSnapshot(
       CHECKIN_DOC,
