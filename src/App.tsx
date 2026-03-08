@@ -68,6 +68,12 @@ const BASE_GUESTS: Guest[] = [
   {id:"033",name:"Renan",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
   {id:"034",name:"Thomson",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
   {id:"035",name:"Angelito",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"T_01",name:"Edwar",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"T_02",name:"Ifren",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"T_03",name:"John",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"T_04",name:"Dennis",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"T_05",name:"Jovani",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"T_06",name:"Ken",role:"Technician",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
   // ── LADIES TABLE · L4 (Reserved) ─────────────────────────────────────────
   {id:"L4_01",name:"Maha",role:"SmartPlus",table:"L4",side:"Left",entrance:"A",status:"confirmed"},
   {id:"L4_02",name:"Shaden",role:"SmartPlus",table:"L4",side:"Left",entrance:"A",status:"confirmed"},
