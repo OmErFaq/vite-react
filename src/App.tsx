@@ -133,9 +133,9 @@ const BASE_GUESTS: Guest[] = [
   {id:"087",name:"Saleh Rifai",role:"Hikvision",table:"R2",side:"Right",entrance:"B",status:"confirmed"},
   {id:"088",name:"Nawaf Alotaibi",role:"Hikvision",table:"R2",side:"Right",entrance:"B",status:"confirmed"},
   // ── R3 · Hikvision + Ezviz + Moayad Guests ───────────────────────────────
-  {id:"089",name:"Khalid",role:"Ezviz",table:"R3",side:"Right",entrance:"B",status:"confirmed"},
-  {id:"090",name:"Fathi",role:"Ezviz",table:"R3",side:"Right",entrance:"B",status:"confirmed"},
-  {id:"091",name:"Ashkan",role:"Ezviz",table:"R3",side:"Right",entrance:"B",status:"confirmed"},
+  {id:"089",name:"Khalid",role:"Ezviz",table:"R2",side:"Right",entrance:"B",status:"confirmed"},
+  {id:"090",name:"Fathi",role:"Ezviz",table:"R2",side:"Right",entrance:"B",status:"confirmed"},
+  {id:"091",name:"Ashkan",role:"Ezviz",table:"R2",side:"Right",entrance:"B",status:"confirmed"},
   {id:"092",name:"Sulieman",role:"Hikvision",table:"R3",side:"Right",entrance:"B",status:"confirmed"},
   {id:"093",name:"Jack Ma",role:"Hikvision",table:"R3",side:"Right",entrance:"B",status:"confirmed"},
   {id:"094",name:"Osama",role:"Hikvision",table:"R3",side:"Right",entrance:"B",status:"confirmed"},
