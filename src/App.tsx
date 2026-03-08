@@ -38,9 +38,9 @@ const BASE_GUESTS: Guest[] = [
   {id:"005",name:"Abdelrahman Ashawy",role:"Operations Manager",table:"L1",side:"Left",entrance:"A",status:"confirmed"},
   {id:"006",name:"Jumah",role:"DPP Sales Manager",table:"L1",side:"Left",entrance:"A",status:"confirmed"},
   {id:"007",name:"Zeeshan Yaqoob",role:"Pre-Sales Manager",table:"L1",side:"Left",entrance:"A",status:"confirmed"},
-  {id:"008",name:"Raees",role:"Retail Sales Manager",table:"L1",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"008",name:"Raees",role:"Retail Sales Manager",table:"L5",side:"Left",entrance:"A",status:"confirmed"},
   {id:"009",name:"Gamal Yasser",role:"DPP Sales",table:"L1",side:"Left",entrance:"A",status:"confirmed"},
-  {id:"010",name:"Oliver",role:"Projects & Tech Manager",table:"L1",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"010",name:"Oliver",role:"Projects & Tech Manager",table:"L5",side:"Left",entrance:"A",status:"confirmed"},
   // ── SP TEAM INTERNAL · L2 (Free Seating) ─────────────────────────────────
   {id:"011",name:"Nawaf",role:"Projects Team",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
   {id:"012",name:"Bader",role:"Accounts Team",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
@@ -50,9 +50,9 @@ const BASE_GUESTS: Guest[] = [
   {id:"016",name:"Hussein Morgan",role:"Ezviz Brand Manager",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
   {id:"017",name:"Mohammed Sohel",role:"Retail Sales",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
   {id:"018",name:"Yosry",role:"Retail Sales",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
-  {id:"019",name:"Moayad Ali",role:"Projects Team",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"019",name:"Moayad Ali",role:"Projects Team",table:"R3",side:"Right",entrance:"B",status:"confirmed"},
   {id:"020",name:"Mamdouh Mustafa",role:"Projects Team",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
-  {id:"021",name:"Mohammed Bakry",role:"Projects Team",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
+  {id:"021",name:"Mohammed Bakry",role:"Projects Team",table:"L6",side:"Left",entrance:"A",status:"confirmed"},
   {id:"022",name:"Ahmed Essam",role:"Projects Team",table:"L2",side:"Left",entrance:"A",status:"confirmed"},
   // ── SP TEAM INTERNAL · L3 (Free Seating) ─────────────────────────────────
   {id:"023",name:"Yasir",role:"Warehouse Team",table:"L3",side:"Left",entrance:"A",status:"confirmed"},
